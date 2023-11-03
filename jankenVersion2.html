@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/jankenstyleversion2.css">
+    <title>じゃんけん</title>
+</head>
+<body background=".\img\haikei.jpg" onload="load()">
+
+
+    <audio id="btn_audioBGM">
+        <source src="./audio/RPG_Battle_03.mp3" type="audio/mp3">
+    </audio>
+
+    <div>
+   
+    <h2>魔王を倒せ！</h2>
+
+
+    <h3 >討伐を開始せよ！！</h3>
+    <!-- <img class="imgHaikei" src=".\img\haikei.jpg" alt="makaihaikei"> -->
+    <div class="Kaiju">
+        <img class="imgKaiju" src=".\img\kaiju.png" alt="kaiju">
+        
+        <div id="maxKaiju">
+            <div id="nowKaiju"></div>
+            </div>
+            <input id="txtK" type="text" value="魔王が現れた">
+        </div>
+        
+    </div>
+
+
+
+    <div class="Yusha">
+        <img class="imgYusha" style="transform: scaleX(-1);" src=".\img\yusha.png" alt="yuusha">
+        <div id="maxYusha">
+            <div id="nowYusha"></div>
+            </div>
+            <!-- <input id="btn1" type="button" onclick="attack()" value="攻撃">
+            <input id="btn2" type="button" onclick="reload()" value="葬る"> -->
+            <input id="txtY" type="text" value="勇者のターン">
+        </div>
+    </div>
+    <h4 >勇者の行動を選択せよ</h4>
+    <ul>
+        <li id="at_btn" onclick="attack()" value="攻撃">攻撃</li>
+        <li id="df_btn" onclick="Guard()" value="防御">防御</li>
+        <li id="cr_btn" onclick="Cure()" value="回復">回復</li>
+    </ul>
+    <input id="btn2" type="button" onclick="reload()" value="もう一回やる">
+
+    </ul>
+
+
+    
+      <audio id="btn_audioAT">
+        <source src="./audio/Attack.mp3" type="audio/mp3">
+    </audio>
+    <audio id="btn_audioPR">
+        <source src="./audio/Protect.mp3" type="audio/mp3">
+    </audio>
+    <audio id="btn_audioCR">
+        <source src="./audio/Cure.mp3" type="audio/mp3">
+    </audio>
+    <audio id="btn_audioKS">
+        <source src="./audio/Kaiju.mp3" type="audio/mp3">
+    </audio>
+
+ 
+
+
+<footer></footer>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/jankenVersion2.js"></script>
+
+</body>
+</html>

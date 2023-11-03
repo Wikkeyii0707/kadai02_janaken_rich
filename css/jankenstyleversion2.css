@@ -1,0 +1,128 @@
+body{
+   
+    background-size: auto;
+    background-position: center top;
+    background-repeat:  no-repeat;
+    margin-top:150px;
+    /* padding:0; */
+    text-align:center;
+    font-size: 26px;
+    width:100%;
+}
+h2{
+    background-color: white;
+}
+
+ul{
+    padding: 0;
+    /* border-top: 1px solid #000000; */
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    list-style-type:none;
+    border: 10px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    border-radius: 10%;
+    width: 10%;
+    
+
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+
+
+  h3{
+    position: absolute;
+    left: 200px;
+    color: #FFF;
+    -webkit-text-stroke: 1px pink;
+
+  }
+  h4{
+    right: 800px;
+    color: #035014;
+    -webkit-text-stroke: 0.5px pink;
+  }
+
+.imgHaikei{
+    width: 1500px;   
+    height: 800px;
+}
+.imgKaiju{
+    width: 300px;   
+    top:200px;
+    margin:0% 10%;
+}
+.imgYusha{
+    width: 400px;   
+    top:600px;
+    margin:0% 10%;
+}
+.Kaiju{
+  text-align: right;
+}
+.Yusha{
+  text-align: left;
+}
+
+#maxKaiju {
+width: 200px;
+height: 20px;
+background-color: red;
+position: relative;
+left:70%;
+}
+
+#maxYusha {
+width: 200px;
+height: 20px;
+background-color: red;
+position: relative;
+left:20%;
+}
+
+#nowKaiju {
+font-size: small;
+width: 200px;
+height: 20px;
+background-color: yellowgreen;
+position: absolute;
+
+}
+
+#nowYusha {
+font-size: small;
+width: 200px;
+height: 20px;
+background-color: yellowgreen;
+position: absolute;
+
+}
+
+#txtK {
+width: 400px;
+height:15px;
+position: relative;
+right:10%;
+}
+#txtY {
+width: 400px;
+height:15px;
+position: relative;
+left:20%;
+}
+#btn1 {
+display: block;
+}
+#btn2{
+display: none;
+}
